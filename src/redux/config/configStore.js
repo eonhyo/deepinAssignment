@@ -1,8 +1,9 @@
-import { createStore, combineReducers } from "redux";
-import letters from "redux/modules/letters";
-import member from "redux/modules/member";
-import { devToolsEnhancer } from "redux-devtools-extension";
+// import { createStore, combineReducers } from "redux";
+import letters from "../modules/letters";
+import member from "../modules/member";
+// import { devToolsEnhancer } from "redux-devtools-extension";
 import { configureStore } from "@reduxjs/toolkit";
+import StatusSlice from "pages/Slice/StatusSlice";
 
 // const rootReducer = combineReducers({ letters, member });
 
@@ -10,7 +11,8 @@ import { configureStore } from "@reduxjs/toolkit";
 const store = configureStore({
   reducer: {
     letters,
-    member
+    member,
+    status: StatusSlice
   }
 });
 
