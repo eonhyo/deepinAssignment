@@ -44,7 +44,7 @@ export const SubmitBtn = styled.button`
   padding: 5px 10px 5ps 10px;
   cursor: pointer;
   user-select: none;
-  background-color: #EBF400;
+  background-color: #f7a7bb;
   border-radius: 5px;
   text-align: right;
   border : none;
@@ -56,7 +56,7 @@ export const SubmitBtn = styled.button`
   font-style: normal;
   font-weight: 700;
   &:hover {
-    background-color: #F57D1F;
+    background-color: black;
 
   }
 `;

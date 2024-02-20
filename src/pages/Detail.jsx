@@ -44,7 +44,7 @@ function Detail() {
     return <p>로딩중...</p>;
   }
   const { avatar, nickname, createdAt, writedTo, content, userId } =
-    letters.find((fanletter) => fanletter.id === id)??{};
+    letters.find((fanletter) => fanletter.id === id);
   const isMine = myUserId === userId;
 
   return (

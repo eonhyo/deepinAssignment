@@ -26,11 +26,9 @@ export const Title = styled.h1`
 export const LoginInput = styled.input`
   margin-bottom: 20px;
   padding: 12px 0px;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  background-color: #F72798;
-  border-bottom: 1px solid black;
+
+  background-color: white;
+  border-radius: 4px;
   &::placeholder {
     color: black;
   }
@@ -43,7 +41,7 @@ export const ButtonDiv = styled.div`
 `;
 
 export const StBtn = styled.button`
-  background-color: #F72798;
+  background-color: white;
   border: 1px solid black;
   border-radius: 5px;
   cursor: pointer;

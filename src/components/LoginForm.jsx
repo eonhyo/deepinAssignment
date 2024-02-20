@@ -23,7 +23,7 @@ function LoginForm({ setIsSignUp }) {
     <>
       <FormDiv>
         <StForm onSubmit={loginBtnHandler}>
-          <Title>❤️‍🔥 FANLETTER 작성을 위해 로그인해주세요 ❤️‍🔥</Title>
+          <Title> FANLETTER 작성을 위해 로그인해주세요 </Title>
           <LoginInput
             name="id"
             type="text"

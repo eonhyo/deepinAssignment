@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { toast } from "react-toastify";
 import { authApi } from "api/app";
-import { ButtonDiv, FormDiv, LoginInput, SpanDiv, StBtn, StForm, StSpan } from "style/componentsStyle/LoginFormStyle";
+import { ButtonDiv, FormDiv, LoginInput, SpanDiv, StBtn, StForm, StSpan } from "style/componentsStyle/SIgnupFormStyle";
 import { Title } from "style/componentsStyle/HeaderStyle";
 
 function SignupForm({ setIsSignUp }) {
@@ -31,7 +31,7 @@ function SignupForm({ setIsSignUp }) {
     <>
       <FormDiv>
         <StForm onSubmit={signupBtnHandler}>
-          <Title>❤️‍🔥 FANLETTER 작성을 위해 회원가입해주세요 ❤️‍🔥</Title>
+          <Title> FANLETTER 작성을 위해 회원가입해주세요 </Title>
           <LoginInput
             name="id"
             type="text"
